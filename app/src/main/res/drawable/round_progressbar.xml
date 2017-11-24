@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:duration="170">
+        <rotate
+            android:drawable="@drawable/icon_round_progressbar"
+            android:fromDegrees="0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:repeatCount="1"
+            android:toDegrees="60" />
+    </item>
+
+    <item android:duration="170">
+        <rotate
+            android:drawable="@drawable/icon_round_progressbar"
+            android:fromDegrees="60"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:repeatCount="1"
+            android:toDegrees="120" />
+    </item>
+
+    <item android:duration="170">
+        <rotate
+            android:drawable="@drawable/icon_round_progressbar"
+            android:fromDegrees="120"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:repeatCount="1"
+            android:toDegrees="180" />
+    </item>
+
+    <item android:duration="170">
+        <rotate
+            android:drawable="@drawable/icon_round_progressbar"
+            android:fromDegrees="180"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:repeatCount="1"
+            android:toDegrees="240" />
+    </item>
+
+    <item android:duration="170">
+        <rotate
+            android:drawable="@drawable/icon_round_progressbar"
+            android:fromDegrees="240"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:repeatCount="1"
+            android:toDegrees="300" />
+    </item>
+
+    <item android:duration="170">
+        <rotate
+            android:drawable="@drawable/icon_round_progressbar"
+            android:fromDegrees="300"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:repeatCount="1"
+            android:toDegrees="360" />
+    </item>
+
+</animation-list>
